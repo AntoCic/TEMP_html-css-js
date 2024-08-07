@@ -1,0 +1,72 @@
+@import "./partials/reset.css";
+@import "./partials/font.css";
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+:root {
+  --font: Arial, Helvetica, sans-serif;
+}
+
+/************************************************
+      UTILITIES
+   ************************************************/
+/* LAYOUT */
+.container {
+  margin: 0 auto;
+  max-width: 1144px;
+  padding: 0 12px;
+}
+
+/* COMPONENTS */
+.link svg {
+  color: #010409;
+  width: 30px;
+  height: 30px;
+}
+
+/* _______________________________________________ */
+/* btn 1 */
+
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+body {
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* HEADER */
+header {
+  flex-shrink: 0;
+}
+
+header .logo {
+  width: 100px;
+}
+
+/* MAIN */
+main {
+  flex-grow: 1;
+}
+
+/* FOOTER */
+footer {
+  flex-shrink: 0;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*************************************************
+    MEDIA RESPONSIVE
+ *************************************************/
+/* breakpoints Medium*/
+@media (min-width: 768px) {}
+
+/* breakpoints Large*/
+@media (min-width: 992px) {}

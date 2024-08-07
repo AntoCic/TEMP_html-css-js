@@ -8,7 +8,7 @@ exports.handler = async function (event, context) {
   // esempio rotta get senza path params
   router.GET('', () => {
     // il metodo setRes setta o aggiunge un parametro
-    router.setRes("HAI FATTO UNA CNCTION NETLIFY")
+    router.setRes("HAI FATTO UNA CHIAMATA GET NETLIFY")
   })
 
   // esempio rotta post con parametro /test che legge un il body 
